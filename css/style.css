@@ -50,7 +50,7 @@ li {
 	margin-top: 30px;
 }
 
-ul, li, a {
+#navbar ul, li a {
 	display: inline;
 	display: flex;
 	flex-direction:row;
@@ -59,6 +59,27 @@ ul, li, a {
 	list-style-type: none;
 	text-decoration: none;
 	color: #444444;
+}
+
+#contact {
+	height: 20vh;
+}
+
+a { 
+	text-decoration: none;
+}
+
+#contact {
+	text-align: center;
+	padding: 30px;
+}
+
+#profile-link {
+	color: red;
+	padding: 20px;
+	font-size: 30px;
+	display: block;
+	font-weight: bold;
 }
 
 @media screen and (max-width: 786px) {
