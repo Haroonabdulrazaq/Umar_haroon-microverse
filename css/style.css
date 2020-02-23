@@ -31,3 +31,9 @@ ul,li,a{
 	color: white;
 
 }
+
+@media screen and (max-width: 786px) {
+	ul li a { 
+		font-weight: normal;
+	}
+}
