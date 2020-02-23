@@ -12,7 +12,7 @@ body {
 	position: fixed;
 	width: 100%;
 	height: 90px;
-	background: #abcabc;
+	background: white;
 }
 
 li {
@@ -29,7 +29,7 @@ li {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	background-color: aquamarine;
+	background-color: lightpink;
 }
 
 #projects h1 {
@@ -45,9 +45,22 @@ li {
 
 .project-tile {
 	padding: 30px;
-	font-size: 30px;
-	font-weight: bold;
 	margin-top: 30px;
+
+}
+
+.project-tile h2 {
+	line-height: 1.5;
+	font-size: 30px;
+}
+
+.project-tile a {
+	text-decoration: none;
+	padding-top: 10px;
+	display: block;
+	color: blue;
+	font-weight: bold;
+
 }
 
 #navbar ul, li a {
@@ -72,10 +85,16 @@ a {
 #contact {
 	text-align: center;
 	padding: 30px;
+	height: 40vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: azure;
 }
 
 #profile-link {
-	color: red;
+	color: blue;
 	padding: 20px;
 	font-size: 30px;
 	display: block;
