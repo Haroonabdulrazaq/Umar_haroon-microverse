@@ -1,0 +1,33 @@
+*{
+margin: 0;
+padding: 0;
+	}
+	body{
+font-family:sans-serif;
+}
+ #welcome-section { 
+    	height: 100vh; 
+    }
+  #navbar{
+	top: 0;
+	position: fixed;
+	width:100%;
+	height: 5em;
+	background: #5c0a04;
+
+}
+li{
+	margin: 2em;
+	padding:0.5em; 
+}
+ul,li,a{
+	display: inline;
+	display: flex;
+	flex-direction:row;
+	justify-content: flex-end;
+	font-weight: bolder;
+	list-style-type: none;
+	text-decoration: none;
+	color: white;
+
+}
